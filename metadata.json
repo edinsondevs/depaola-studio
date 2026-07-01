@@ -1,0 +1,6 @@
+{
+  "name": "De'Paola Studio",
+  "description": "Sitio web oficial de De'Paola Studio - Especialistas en Manicuría en San Cristóbal, CABA. Elegancia, lujo y exclusividad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
