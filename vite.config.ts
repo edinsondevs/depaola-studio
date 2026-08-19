@@ -1,11 +1,12 @@
 import tailwindcss from '@tailwindcss/vite';
+import { microfrontends } from '@vercel/microfrontends/experimental/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    plugins: [react(), tailwindcss()],
+    plugins: [react(), tailwindcss(), microfrontends()],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
